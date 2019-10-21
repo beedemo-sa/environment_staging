@@ -32,7 +32,7 @@ spec:
       serviceAccountName: cjoc
       containers:
       - name: beedemo-sa
-        image: gcr.io/core-workshop/helloworld-nodejs:beedemo-sa-5
+        image: gcr.io/core-workshop/helloworld-nodejs:beedemo-sa-6
         resources:
           requests:
             memory: "100Mi"
